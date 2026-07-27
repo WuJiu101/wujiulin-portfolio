@@ -22,7 +22,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 /* ========== NAV ========== */
 .nav-bar{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:18px var(--page-x);mix-blend-mode:difference;opacity:0;animation:nav-in .7s cubic-bezier(.22,.61,.36,1) 1.55s forwards}
 @keyframes nav-in{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
-.nav-logo{width:44px;height:44px;overflow:hidden;background:url("assets/personal-logo/logo-white-transparent.png") center/contain no-repeat;color:transparent;font-size:0}
+.nav-logo{width:44px;height:44px;overflow:hidden;background:url("assets/personal-logo/logo-white-transparent.webp") center/contain no-repeat;color:transparent;font-size:0}
 .nav-links{display:flex;gap:clamp(14px,2.5vw,28px)}
 .nav-links a{font-family:var(--font-en);font-size:.76rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:rgba(255,255,255,.68);transition:color .3s}
 .nav-links a:hover{color:var(--white)}
@@ -194,7 +194,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 /* ========== FOOTER ========== */
 .site-footer{background:var(--paper);padding:clamp(20px,2.5vh,32px) var(--page-x) clamp(28px,3.5vh,40px);border-top:1px solid rgba(18,17,14,.05)}
 .footer-inner{display:flex;flex-direction:column;gap:4px}
-.footer-inner strong{display:block;width:46px;height:46px;overflow:hidden;background:url("assets/personal-logo/logo-black-transparent.png") center/contain no-repeat;color:transparent;font-size:0}
+.footer-inner strong{display:block;width:46px;height:46px;overflow:hidden;background:url("assets/personal-logo/logo-black-transparent.webp") center/contain no-repeat;color:transparent;font-size:0}
 .footer-inner p{font-size:.82rem;color:var(--muted)}
 .footer-line{font-family:var(--font-en);font-size:.68rem;color:rgba(107,101,96,.45)}
 

@@ -135,7 +135,7 @@ const projectData = {
       showcase: [
         { heading: "品牌识别基础", note: "保留原有标识的识别资产，用更克制的规则建立后续延展所需的色彩、图形和行业符号。" },
         {
-          src: "../assets/yuanwang-group-brand-design/00-primary-logo.png",
+          src: "../assets/yuanwang-group-brand-design/00-primary-logo.webp",
           alt: "Invant Future 远望集团品牌主标志",
           label: "品牌标志",
           title: "主标志",
@@ -144,7 +144,7 @@ const projectData = {
           fit: "logo",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/01-logo-basic-usage.png",
+          src: "../assets/yuanwang-group-brand-design/01-logo-basic-usage.webp",
           alt: "远望集团标志基础应用规范",
           label: "标志应用",
           title: "标志基础应用",
@@ -152,7 +152,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/02-brand-color-usage.png",
+          src: "../assets/yuanwang-group-brand-design/02-brand-color-usage.webp",
           alt: "远望集团品牌色彩应用",
           label: "品牌色彩",
           title: "蓝橙色彩系统",
@@ -160,7 +160,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/03-core-support-graphics.png",
+          src: "../assets/yuanwang-group-brand-design/03-core-support-graphics.webp",
           alt: "远望集团核心辅助图形",
           label: "辅助图形",
           title: "雷达、风场与等高线",
@@ -168,7 +168,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/04-simplified-industry-icons.png",
+          src: "../assets/yuanwang-group-brand-design/04-simplified-industry-icons.webp",
           alt: "远望集团简化行业图标",
           label: "行业图标",
           title: "简化业务图标",
@@ -177,7 +177,7 @@ const projectData = {
         },
         { heading: "办公与印刷物料", note: "让品牌进入每天被触摸和使用的实体物件，以成品摄影检验标识、色彩和辅助图形的实际表现。" },
         {
-          src: "../assets/yuanwang-group-brand-design/05-printed-business-cards.png",
+          src: "../assets/yuanwang-group-brand-design/05-printed-business-cards.webp",
           alt: "远望集团商务名片印刷成品",
           label: "商务名片",
           title: "名片印刷成品",
@@ -185,7 +185,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/06-office-stationery-photo.png",
+          src: "../assets/yuanwang-group-brand-design/06-office-stationery-photo.webp",
           alt: "远望集团办公文具套装",
           label: "办公文具",
           title: "基础文具套装",
@@ -193,7 +193,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/07-office-daily-items-photo.png",
+          src: "../assets/yuanwang-group-brand-design/07-office-daily-items-photo.webp",
           alt: "远望集团日常办公用品",
           label: "日常用品",
           title: "高频办公触点",
@@ -201,7 +201,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/08-employee-engineering-items.png",
+          src: "../assets/yuanwang-group-brand-design/08-employee-engineering-items.webp",
           alt: "远望集团员工与工程用品",
           label: "员工用品",
           title: "工程服务装备",
@@ -209,7 +209,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/09-corporate-brochure-photo.png",
+          src: "../assets/yuanwang-group-brand-design/09-corporate-brochure-photo.webp",
           alt: "远望集团企业画册实体摄影",
           label: "企业画册",
           title: "画册印刷成品",
@@ -217,7 +217,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/10-product-manual-report-photo.png",
+          src: "../assets/yuanwang-group-brand-design/10-product-manual-report-photo.webp",
           alt: "远望集团产品手册与技术报告",
           label: "技术资料",
           title: "产品手册与报告",
@@ -234,7 +234,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/12-campus-entrance-monument.png",
+          src: "../assets/yuanwang-group-brand-design/12-campus-entrance-monument.webp",
           alt: "远望集团园区入口标识",
           label: "园区入口",
           title: "入口精神堡垒",
@@ -242,7 +242,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/13-campus-wayfinding.png",
+          src: "../assets/yuanwang-group-brand-design/13-campus-wayfinding.webp",
           alt: "远望集团园区导视系统",
           label: "园区导视",
           title: "园区信息系统",
@@ -250,7 +250,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/14-reception-brand-wall.png",
+          src: "../assets/yuanwang-group-brand-design/14-reception-brand-wall.webp",
           alt: "远望集团前台品牌墙",
           label: "前台空间",
           title: "接待区品牌墙",
@@ -258,7 +258,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/15-corporate-showroom.png",
+          src: "../assets/yuanwang-group-brand-design/15-corporate-showroom.webp",
           alt: "远望集团企业展厅",
           label: "企业展厅",
           title: "产品与发展展示",
@@ -266,7 +266,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/16-exhibition-booth-wide.png",
+          src: "../assets/yuanwang-group-brand-design/16-exhibition-booth-wide.webp",
           alt: "远望集团行业展会展台",
           label: "行业展会",
           title: "展会展台",
@@ -275,7 +275,7 @@ const projectData = {
         },
         { heading: "产品与业务现场", note: "最后把品牌带回核心业务：设备展示、产品发布、气象会商与户外工程服务。" },
         {
-          src: "../assets/yuanwang-group-brand-design/17-radar-product-display.png",
+          src: "../assets/yuanwang-group-brand-design/17-radar-product-display.webp",
           alt: "远望集团雷达产品展示",
           label: "产品展示",
           title: "雷达设备展示区",
@@ -283,7 +283,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/18-product-launch-stage.png",
+          src: "../assets/yuanwang-group-brand-design/18-product-launch-stage.webp",
           alt: "远望集团产品发布会舞台",
           label: "产品发布",
           title: "行业发布会舞台",
@@ -291,7 +291,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/19-weather-command-center.png",
+          src: "../assets/yuanwang-group-brand-design/19-weather-command-center.webp",
           alt: "远望集团气象指挥中心",
           label: "指挥中心",
           title: "气象数据会商",
@@ -299,7 +299,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/yuanwang-group-brand-design/20-outdoor-radar-service.png",
+          src: "../assets/yuanwang-group-brand-design/20-outdoor-radar-service.webp",
           alt: "远望集团户外雷达运维服务",
           label: "工程服务",
           title: "户外雷达运维",
@@ -322,7 +322,7 @@ const projectData = {
       showcase: [
         { heading: "封面与品牌气质", note: "深蓝、金色与几何标识共同建立稳健的金融气质，并以薄册实拍视角呈现成品比例。" },
         {
-          src: "../assets/shengtai-financial-brand/01-cover.png",
+          src: "../assets/shengtai-financial-brand/01-cover.webp",
           alt: "盛泰金融品牌画册薄册封面样机",
           label: "Cover",
           title: "封面主视觉",
@@ -338,7 +338,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/03-contents.png",
+          src: "../assets/shengtai-financial-brand/03-contents.webp",
           alt: "盛泰金融品牌画册目录跨页样机",
           label: "Contents",
           title: "目录跨页",
@@ -346,7 +346,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/shengtai-financial-brand/04-introduction.png",
+          src: "../assets/shengtai-financial-brand/04-introduction.webp",
           alt: "盛泰金融品牌画册企业介绍跨页样机",
           label: "Introduction",
           title: "走进盛泰",
@@ -355,7 +355,7 @@ const projectData = {
         },
         { heading: "理念与团队", note: "由品牌理念、企业愿景进入核心人物与团队成员，让抽象价值观逐步落到真实组织。" },
         {
-          src: "../assets/shengtai-financial-brand/05-concept-spirit.png",
+          src: "../assets/shengtai-financial-brand/05-concept-spirit.webp",
           alt: "盛泰金融画册理念与精神跨页样机",
           label: "Concept",
           title: "理念与精神",
@@ -363,7 +363,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/06-vision.png",
+          src: "../assets/shengtai-financial-brand/06-vision.webp",
           alt: "盛泰金融画册企业愿景跨页样机",
           label: "Vision",
           title: "盛泰愿景",
@@ -371,7 +371,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/shengtai-financial-brand/07-pioneering-figure.png",
+          src: "../assets/shengtai-financial-brand/07-pioneering-figure.webp",
           alt: "盛泰金融画册领军人物跨页样机",
           label: "Leadership",
           title: "领军人物",
@@ -379,7 +379,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/shengtai-financial-brand/08-team-one.png",
+          src: "../assets/shengtai-financial-brand/08-team-one.webp",
           alt: "盛泰金融画册团队成员介绍跨页样机一",
           label: "Team",
           title: "核心团队（一）",
@@ -387,7 +387,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/09-team-two.png",
+          src: "../assets/shengtai-financial-brand/09-team-two.webp",
           alt: "盛泰金融画册团队成员介绍跨页样机二",
           label: "Team",
           title: "核心团队（二）",
@@ -396,7 +396,7 @@ const projectData = {
         },
         { heading: "时光机与发展历程", note: "从章节转场进入年度时间线，再以连续跨页梳理盛泰团队 2018—2024 年的成长轨迹。" },
         {
-          src: "../assets/shengtai-financial-brand/10-history-divider.png",
+          src: "../assets/shengtai-financial-brand/10-history-divider.webp",
           alt: "盛泰金融画册时光机章节页样机",
           label: "Timeline",
           title: "时光机章节页",
@@ -404,7 +404,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/shengtai-financial-brand/11-development-timeline.png",
+          src: "../assets/shengtai-financial-brand/11-development-timeline.webp",
           alt: "盛泰金融画册2018至2024发展时间线样机",
           label: "Development",
           title: "发展历程总览",
@@ -412,7 +412,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/shengtai-financial-brand/12-history-2018-2019.png",
+          src: "../assets/shengtai-financial-brand/12-history-2018-2019.webp",
           alt: "盛泰金融画册2018至2019发展历程跨页样机",
           label: "2018—2019",
           title: "成立与探索",
@@ -420,7 +420,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/13-history-2020-2021.png",
+          src: "../assets/shengtai-financial-brand/13-history-2020-2021.webp",
           alt: "盛泰金融画册2020至2021发展历程跨页样机",
           label: "2020—2021",
           title: "责任与多元探索",
@@ -428,7 +428,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/14-history-2022-2023.png",
+          src: "../assets/shengtai-financial-brand/14-history-2022-2023.webp",
           alt: "盛泰金融画册2022至2023发展历程跨页样机",
           label: "2022—2023",
           title: "公益与区块链投资",
@@ -436,7 +436,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/shengtai-financial-brand/15-history-2024.png",
+          src: "../assets/shengtai-financial-brand/15-history-2024.webp",
           alt: "盛泰金融画册2024发展历程跨页样机",
           label: "2024",
           title: "聚焦行业前沿",
@@ -1211,7 +1211,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/lakeside-soundwave/visual-extension-overview.png",
+          src: "../assets/lakeside-soundwave/visual-extension-overview.webp",
           alt: "湖畔音浪挑战赛平面延展总览",
           label: "System overview",
           title: "平面延展总览",
@@ -1220,7 +1220,7 @@ const projectData = {
         },
         { heading: "平面物料系统", note: "舞台背景、导视与打卡装置——把主 KV 的识别基因放到具体物料尺度里检验统一性。" },
         {
-          src: "../assets/lakeside-soundwave/stage-backdrop-artwork.png",
+          src: "../assets/lakeside-soundwave/stage-backdrop-artwork.webp",
           alt: "湖畔音浪挑战赛舞台背景平面稿",
           label: "Stage",
           title: "舞台背景平面稿",
@@ -1228,7 +1228,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/lakeside-soundwave/wayfinding-system-artwork.png",
+          src: "../assets/lakeside-soundwave/wayfinding-system-artwork.webp",
           alt: "湖畔音浪挑战赛导视系统平面稿",
           label: "Wayfinding",
           title: "导视系统",
@@ -1236,7 +1236,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/lakeside-soundwave/checkin-installation-artwork.png",
+          src: "../assets/lakeside-soundwave/checkin-installation-artwork.webp",
           alt: "湖畔音浪挑战赛打卡装置平面稿",
           label: "Photo zone",
           title: "打卡装置",
@@ -1245,7 +1245,7 @@ const projectData = {
         },
         { heading: "空间场景落地", note: "平面回到现场——看视觉系统在湖畔、入口、舞台和园区动线中如何成立。" },
         {
-          src: "../assets/lakeside-soundwave/entrance-arch-render.png",
+          src: "../assets/lakeside-soundwave/entrance-arch-render.webp",
           alt: "湖畔音浪挑战赛入口拱门环境效果图",
           label: "Arrival",
           title: "入口拱门",
@@ -1253,7 +1253,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/lakeside-soundwave/lakeside-stage-render.png",
+          src: "../assets/lakeside-soundwave/lakeside-stage-render.webp",
           alt: "湖畔音浪挑战赛湖畔舞台环境效果图",
           label: "Main stage",
           title: "湖畔舞台",
@@ -1261,7 +1261,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/lakeside-soundwave/flower-boat-checkin-render.png",
+          src: "../assets/lakeside-soundwave/flower-boat-checkin-render.webp",
           alt: "湖畔音浪挑战赛花船打卡点环境效果图",
           label: "Photo spot",
           title: "花船打卡点",
@@ -1269,7 +1269,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/lakeside-soundwave/park-wayfinding-render.png",
+          src: "../assets/lakeside-soundwave/park-wayfinding-render.webp",
           alt: "湖畔音浪挑战赛园区导视环境效果图",
           label: "Park flow",
           title: "园区导视",
@@ -1302,7 +1302,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-02.png",
+          src: "../assets/taiji-cup-ip/page-02.webp",
           alt: "太极杯IP设计主题阐述",
           label: "Concept",
           title: "设计主题阐述",
@@ -1312,7 +1312,7 @@ const projectData = {
         },
         { heading: "IP角色设定", note: "以中医药文化符号为原型，设计吉祥物IP形象的三视图、色彩方案和表情动作系统。" },
         {
-          src: "../assets/taiji-cup-ip/page-03.png",
+          src: "../assets/taiji-cup-ip/page-03.webp",
           alt: "太极杯IP卡通吉祥物设计主视图",
           label: "Mascot",
           title: "卡通吉祥物设计",
@@ -1321,7 +1321,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-04.png",
+          src: "../assets/taiji-cup-ip/page-04.webp",
           alt: "太极杯IP吉祥物设计稿",
           label: "Design",
           title: "吉祥物设计稿",
@@ -1330,7 +1330,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-05.png",
+          src: "../assets/taiji-cup-ip/page-05.webp",
           alt: "太极杯IP吉祥物多角度展示",
           label: "Views",
           title: "多角度视图",
@@ -1339,7 +1339,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-06.png",
+          src: "../assets/taiji-cup-ip/page-06.webp",
           alt: "太极杯IP设计元素拆解",
           label: "Elements",
           title: "设计元素拆解",
@@ -1349,7 +1349,7 @@ const projectData = {
         },
         { heading: "表情与动作延展", note: "为IP角色设计丰富的表情变化与肢体动作，覆盖多场景应用需求。" },
         {
-          src: "../assets/taiji-cup-ip/page-07.png",
+          src: "../assets/taiji-cup-ip/page-07.webp",
           alt: "太极杯IP角色表情设计",
           label: "Expressions",
           title: "角色表情设计",
@@ -1358,7 +1358,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-08.png",
+          src: "../assets/taiji-cup-ip/page-08.webp",
           alt: "太极杯IP角色动作设计",
           label: "Actions",
           title: "角色动作延展",
@@ -1367,7 +1367,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-09.png",
+          src: "../assets/taiji-cup-ip/page-09.webp",
           alt: "太极杯IP角色姿态设计",
           label: "Poses",
           title: "多姿态展示",
@@ -1376,7 +1376,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-10.png",
+          src: "../assets/taiji-cup-ip/page-10.webp",
           alt: "太极杯IP角色动作延展设计",
           label: "Actions",
           title: "动作延展设计",
@@ -1386,7 +1386,7 @@ const projectData = {
         },
         { heading: "色彩方案与立体呈现", note: "为IP角色开发多种配色方案，并以立体模型展示不同材质的呈现效果。" },
         {
-          src: "../assets/taiji-cup-ip/page-11.png",
+          src: "../assets/taiji-cup-ip/page-11.webp",
           alt: "太极杯IP色彩方案一",
           label: "Color",
           title: "色彩方案一",
@@ -1395,7 +1395,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-12.png",
+          src: "../assets/taiji-cup-ip/page-12.webp",
           alt: "太极杯IP色彩方案二",
           label: "Color",
           title: "色彩方案二",
@@ -1404,7 +1404,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-13.png",
+          src: "../assets/taiji-cup-ip/page-13.webp",
           alt: "太极杯IP色彩方案三",
           label: "Color",
           title: "色彩方案三",
@@ -1413,7 +1413,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-14.png",
+          src: "../assets/taiji-cup-ip/page-14.webp",
           alt: "太极杯IP立体模型展示",
           label: "3D",
           title: "立体模型展示一",
@@ -1422,7 +1422,7 @@ const projectData = {
           fit: "contain",
         },
         {
-          src: "../assets/taiji-cup-ip/page-15.png",
+          src: "../assets/taiji-cup-ip/page-15.webp",
           alt: "太极杯IP立体模型三色方案",
           label: "3D",
           title: "立体模型三色方案",
@@ -1456,7 +1456,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/qingyuan-bank-brochure/07-cover-back-composition.png",
+          src: "../assets/qingyuan-bank-brochure/07-cover-back-composition.webp",
           alt: "清远农业银行画册封面封底组合样机",
           label: "Cover system",
           title: "封面与封底",
@@ -1465,7 +1465,7 @@ const projectData = {
         },
         { heading: "内容结构与品牌叙事", note: "不同机位的跨页样机呈现目录、机构发展、业务服务、助农创新与公益责任等完整内容层次。" },
         {
-          src: "../assets/qingyuan-bank-brochure/02-contents-spread.png",
+          src: "../assets/qingyuan-bank-brochure/02-contents-spread.webp",
           alt: "清远农业银行画册目录跨页样机",
           label: "Contents",
           title: "目录跨页",
@@ -1473,7 +1473,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/qingyuan-bank-brochure/03-introduction-spread.png",
+          src: "../assets/qingyuan-bank-brochure/03-introduction-spread.webp",
           alt: "清远农业银行画册机构简介跨页样机",
           label: "Introduction",
           title: "机构简介",
@@ -1481,7 +1481,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/qingyuan-bank-brochure/04-service-farming-spread.png",
+          src: "../assets/qingyuan-bank-brochure/04-service-farming-spread.webp",
           alt: "清远农业银行画册服务架构与助农跨页样机",
           label: "Service",
           title: "服务架构与助农实践",
@@ -1489,7 +1489,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/qingyuan-bank-brochure/05-small-business-innovation-spread.png",
+          src: "../assets/qingyuan-bank-brochure/05-small-business-innovation-spread.webp",
           alt: "清远农业银行画册支小与创新跨页样机",
           label: "Innovation",
           title: "支小与创新",
@@ -1497,7 +1497,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/qingyuan-bank-brochure/06-public-welfare-conclusion-spread.png",
+          src: "../assets/qingyuan-bank-brochure/06-public-welfare-conclusion-spread.webp",
           alt: "清远农业银行画册公益与结语跨页样机",
           label: "Responsibility",
           title: "公益责任与结语",
@@ -1520,7 +1520,7 @@ const projectData = {
       showcase: [
         { heading: "封面与品牌识别", note: "以品牌红和双标识建立国际汽车服务画册的第一印象，并通过工业金属场景突出汽车科技属性。" },
         {
-          src: "../assets/jizhicar-brochure/01-cover.png",
+          src: "../assets/jizhicar-brochure/01-cover.webp",
           alt: "极客车网与X-MOTORS国际手册A4竖版封面样机",
           label: "Cover",
           title: "国际手册封面",
@@ -1528,7 +1528,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/jizhicar-brochure/02-contents.png",
+          src: "../assets/jizhicar-brochure/02-contents.webp",
           alt: "极客车网国际手册目录跨页样机",
           label: "Contents",
           title: "目录跨页",
@@ -1536,7 +1536,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/jizhicar-brochure/03-about-us.png",
+          src: "../assets/jizhicar-brochure/03-about-us.webp",
           alt: "极客车网关于我们中英双语跨页样机",
           label: "About us",
           title: "关于我们",
@@ -1544,7 +1544,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/jizhicar-brochure/04-shareholders-clients.png",
+          src: "../assets/jizhicar-brochure/04-shareholders-clients.webp",
           alt: "极客车网主要股东与汽车客户跨页样机",
           label: "Network",
           title: "股东与客户体系",
@@ -1553,7 +1553,7 @@ const projectData = {
         },
         { heading: "业务与数字能力", note: "从三项核心业务进入数字化仓储服务，以汽车影像、业务场景和数据信息展示平台能力。" },
         {
-          src: "../assets/jizhicar-brochure/05-core-business.png",
+          src: "../assets/jizhicar-brochure/05-core-business.webp",
           alt: "极客车网核心业务跨页样机",
           label: "Core business",
           title: "核心业务",
@@ -1561,7 +1561,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/jizhicar-brochure/06-digital-warehouse.png",
+          src: "../assets/jizhicar-brochure/06-digital-warehouse.webp",
           alt: "极客车网数字化仓储信息系统跨页样机",
           label: "Digital service",
           title: "数字化仓储服务",
@@ -1578,7 +1578,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/jizhicar-brochure/08-global-layout.png",
+          src: "../assets/jizhicar-brochure/08-global-layout.webp",
           alt: "X-MOTORS全球布局规划地图跨页样机",
           label: "Global layout",
           title: "全球布局",
@@ -1586,7 +1586,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/jizhicar-brochure/09-authorized-dealers.png",
+          src: "../assets/jizhicar-brochure/09-authorized-dealers.webp",
           alt: "X-MOTORS官方授权经销体系跨页样机",
           label: "Dealer system",
           title: "授权经销体系",
@@ -1595,7 +1595,7 @@ const projectData = {
         },
         { heading: "人才与海外团队", note: "由极致学院的人才培养进入真实海外团队和招聘流程，以人物与现场内容完成画册收束。" },
         {
-          src: "../assets/jizhicar-brochure/10-extreme-academy.png",
+          src: "../assets/jizhicar-brochure/10-extreme-academy.webp",
           alt: "极客车网极致学院培训体系跨页样机",
           label: "Academy",
           title: "极致学院",
@@ -1603,7 +1603,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/jizhicar-brochure/11-overseas-team.png",
+          src: "../assets/jizhicar-brochure/11-overseas-team.webp",
           alt: "X-MOTORS海外团队与展厅现场跨页样机",
           label: "Overseas team",
           title: "海外团队",
@@ -1611,7 +1611,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/jizhicar-brochure/12-recruitment-closing.png",
+          src: "../assets/jizhicar-brochure/12-recruitment-closing.webp",
           alt: "极客车网团队活动与招聘流程结尾跨页样机",
           label: "Recruitment",
           title: "招聘与团队活动",
@@ -1644,7 +1644,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/world-games-archery/archery-field-overview.png",
+          src: "../assets/world-games-archery/archery-field-overview.webp",
           alt: "成都世运会射箭比赛场地全景",
           label: "Venue overview",
           title: "射箭赛场全景",
@@ -1652,7 +1652,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/world-games-archery/venue-main-entrance.png",
+          src: "../assets/world-games-archery/venue-main-entrance.webp",
           alt: "青龙湖射箭场馆主入口赛事标识",
           label: "Main entrance",
           title: "场馆主入口",
@@ -1660,7 +1660,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/world-games-archery/venue-facade-overview.png",
+          src: "../assets/world-games-archery/venue-facade-overview.webp",
           alt: "成都世运会射箭场馆建筑外立面整体包装",
           label: "Facade system",
           title: "建筑外立面系统",
@@ -1668,7 +1668,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/world-games-archery/venue-facade-detail.png",
+          src: "../assets/world-games-archery/venue-facade-detail.webp",
           alt: "成都世运会射箭场馆建筑外立面细节",
           label: "Facade detail",
           title: "建筑包装细节",
@@ -1677,7 +1677,7 @@ const projectData = {
         },
         { heading: "功能服务节点", note: "不同功能空间沿用统一色彩和图形语汇，并根据服务场景调整信息密度与观看距离。" },
         {
-          src: "../assets/world-games-archery/spectator-information-desk.png",
+          src: "../assets/world-games-archery/spectator-information-desk.webp",
           alt: "成都世运会射箭场馆观众服务信息台",
           label: "Spectator service",
           title: "观众服务信息台",
@@ -1685,7 +1685,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/world-games-archery/event-service-desk.png",
+          src: "../assets/world-games-archery/event-service-desk.webp",
           alt: "成都世运会射箭场馆赛事服务台",
           label: "Event service",
           title: "赛事服务台",
@@ -1693,7 +1693,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/world-games-archery/licensed-product-stall.png",
+          src: "../assets/world-games-archery/licensed-product-stall.webp",
           alt: "成都世运会射箭场馆特许商品服务点",
           label: "Licensed products",
           title: "特许商品服务点",
@@ -1701,7 +1701,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/world-games-archery/media-help-desk.png",
+          src: "../assets/world-games-archery/media-help-desk.webp",
           alt: "成都世运会射箭场馆媒体咨询台",
           label: "Media service",
           title: "媒体咨询台",
@@ -1710,7 +1710,7 @@ const projectData = {
         },
         { heading: "观众互动与赛事传播", note: "互动装置和合作伙伴背景墙共同拓展观众停留、拍摄与赛事传播场景。" },
         {
-          src: "../assets/world-games-archery/audience-photo-installation.png",
+          src: "../assets/world-games-archery/audience-photo-installation.webp",
           alt: "成都世运会射箭场馆观众互动拍照装置",
           label: "Photo installation",
           title: "城市地标互动装置",
@@ -1718,7 +1718,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/world-games-archery/partner-background-wall.png",
+          src: "../assets/world-games-archery/partner-background-wall.webp",
           alt: "成都世运会射箭场馆合作伙伴背景墙",
           label: "Partner wall",
           title: "合作伙伴背景墙",
@@ -1800,7 +1800,7 @@ const projectData = {
         },
         { heading: "公共空间视觉预演", note: "以下画面均为基于现场照片制作的效果预演，用于验证玻璃围栏在不同距离、转角和环境背景中的视觉节奏。" },
         {
-          src: "../assets/world-games-longquanyi/railing-champions.png",
+          src: "../assets/world-games-longquanyi/railing-champions.webp",
           alt: "成都世运会龙泉驿赛区冠军人物玻璃围栏视觉效果图",
           label: "Visual preview",
           title: "冠军人物主题围栏",
@@ -1855,7 +1855,7 @@ const projectData = {
       showcase: [
         { heading: "到达与空间识别", note: "从园区道路、酒店入口到签到区域，以连续的蓝色识别建立参会者的到达路径和大会第一印象。" },
         {
-          src: "../assets/luzhou-health-conference/01-park-flags.png",
+          src: "../assets/luzhou-health-conference/01-park-flags.webp",
           alt: "泸州医药健康产业专题对接活动园区道路道旗",
           label: "Arrival system",
           title: "园区道路导入",
@@ -1863,7 +1863,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/luzhou-health-conference/02-entrance-backdrop.png",
+          src: "../assets/luzhou-health-conference/02-entrance-backdrop.webp",
           alt: "泸州医药健康产业专题对接活动入口主背景",
           label: "Entrance identity",
           title: "入口活动主背景",
@@ -1871,7 +1871,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/03-registration-area.png",
+          src: "../assets/luzhou-health-conference/03-registration-area.webp",
           alt: "泸州医药健康产业专题对接活动签到区域",
           label: "Registration",
           title: "签到区域",
@@ -1879,7 +1879,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/04-health-installation.png",
+          src: "../assets/luzhou-health-conference/04-health-installation.webp",
           alt: "泸州医药健康产业专题对接活动医药健康主题装置",
           label: "Theme installation",
           title: "医药健康主题装置",
@@ -1896,7 +1896,7 @@ const projectData = {
           layout: "hero",
         },
         {
-          src: "../assets/luzhou-health-conference/06-lobby-wayfinding.png",
+          src: "../assets/luzhou-health-conference/06-lobby-wayfinding.webp",
           alt: "泸州医药健康产业专题对接活动大堂单体导视",
           label: "Wayfinding",
           title: "大堂单体导视",
@@ -1904,7 +1904,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/07-dual-wayfinding.png",
+          src: "../assets/luzhou-health-conference/07-dual-wayfinding.webp",
           alt: "泸州医药健康产业专题对接活动双向导视",
           label: "Wayfinding junction",
           title: "会场双向导视",
@@ -1912,7 +1912,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/08-corridor-branding.png",
+          src: "../assets/luzhou-health-conference/08-corridor-branding.webp",
           alt: "泸州医药健康产业专题对接活动会场长廊氛围",
           label: "Corridor branding",
           title: "会场长廊氛围",
@@ -1920,7 +1920,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/luzhou-health-conference/09-stage-closeup.png",
+          src: "../assets/luzhou-health-conference/09-stage-closeup.webp",
           alt: "泸州医药健康产业专题对接活动主舞台近景",
           label: "Stage detail",
           title: "主舞台近景",
@@ -1928,7 +1928,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/luzhou-health-conference/15-directional-totem.png",
+          src: "../assets/luzhou-health-conference/15-directional-totem.webp",
           alt: "泸州医药健康产业专题对接活动区域立屏导视",
           label: "Directional totem",
           title: "区域立屏导视",
@@ -1936,7 +1936,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/luzhou-health-conference/16-signing-stage.png",
+          src: "../assets/luzhou-health-conference/16-signing-stage.webp",
           alt: "泸州医药健康产业专题对接活动签约环节舞台",
           label: "Signing session",
           title: "签约环节舞台",
@@ -1945,7 +1945,7 @@ const projectData = {
         },
         { heading: "会议物料与触点", note: "证件、手册、议程、司仪台、话筒套和席位标识共同完成从宏观空间到手持物料的统一识别。" },
         {
-          src: "../assets/luzhou-health-conference/10-badges-and-handbooks.png",
+          src: "../assets/luzhou-health-conference/10-badges-and-handbooks.webp",
           alt: "泸州医药健康产业专题对接活动证件与会议手册",
           label: "Credentials",
           title: "证件与会议手册",
@@ -1953,7 +1953,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/11-agenda.png",
+          src: "../assets/luzhou-health-conference/11-agenda.webp",
           alt: "泸州医药健康产业专题对接活动会议议程单",
           label: "Agenda",
           title: "会议议程单",
@@ -1961,7 +1961,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/12-lectern-detail.png",
+          src: "../assets/luzhou-health-conference/12-lectern-detail.webp",
           alt: "泸州医药健康产业专题对接活动司仪台",
           label: "Lectern",
           title: "司仪台细节",
@@ -1969,7 +1969,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/13-microphone-detail.png",
+          src: "../assets/luzhou-health-conference/13-microphone-detail.webp",
           alt: "泸州医药健康产业专题对接活动话筒套",
           label: "Microphone flag",
           title: "话筒套细节",
@@ -1977,7 +1977,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/luzhou-health-conference/14-seating-signage.png",
+          src: "../assets/luzhou-health-conference/14-seating-signage.webp",
           alt: "泸州医药健康产业专题对接活动桌牌与椅背贴",
           label: "Seating system",
           title: "桌牌与椅背贴",
@@ -2000,7 +2000,7 @@ const projectData = {
       ],
       showcase: [
         {
-          src: "../assets/pet-sports-wechat/extensions/08-online-visual-overview.png",
+          src: "../assets/pet-sports-wechat/extensions/08-online-visual-overview.webp",
           alt: "爱宠计划线上视觉系统总览",
           label: "Campaign overview",
           title: "线上视觉系统总览",
@@ -2020,7 +2020,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/07-single-phone-wechat.png",
+          src: "../assets/pet-sports-wechat/extensions/07-single-phone-wechat.webp",
           alt: "爱宠计划微信公众号长图手机展示",
           label: "Mobile experience",
           title: "公众号阅读场景",
@@ -2048,7 +2048,7 @@ const projectData = {
           note: "将线上图形语言转译为真实可搭建的空间结构，统一户外商业街与花谷草坪中的活动触点。",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/01-entrance-arch.png",
+          src: "../assets/pet-sports-wechat/extensions/01-entrance-arch.webp",
           alt: "爱宠计划户外活动入口门头",
           label: "Entrance arch",
           title: "入口门头",
@@ -2056,7 +2056,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/02-checkin-wall.png",
+          src: "../assets/pet-sports-wechat/extensions/02-checkin-wall.webp",
           alt: "爱宠计划活动签到墙",
           label: "Check-in wall",
           title: "签到与合影背景",
@@ -2064,7 +2064,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/03-pet-stage.png",
+          src: "../assets/pet-sports-wechat/extensions/03-pet-stage.webp",
           alt: "爱宠计划活动主舞台背景",
           label: "Main stage",
           title: "主舞台背景",
@@ -2072,7 +2072,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/04-wayfinding-system.png",
+          src: "../assets/pet-sports-wechat/extensions/04-wayfinding-system.webp",
           alt: "爱宠计划活动导视系统",
           label: "Wayfinding",
           title: "场地导视系统",
@@ -2080,7 +2080,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/pet-sports-wechat/extensions/05-pet-number-tags.png",
+          src: "../assets/pet-sports-wechat/extensions/05-pet-number-tags.webp",
           alt: "爱宠计划宠物参赛号码牌",
           label: "Pet number tags",
           title: "宠物号码牌",
@@ -2111,7 +2111,7 @@ const projectData = {
       ],
       showcase: [
         {
-          src: "../assets/holiday-awakening/01-wechat-horizontal-cover.png",
+          src: "../assets/holiday-awakening/01-wechat-horizontal-cover.webp",
           alt: "假日唤醒计划公众号横版主视觉",
           label: "Campaign key visual",
           title: "公众号横版主视觉",
@@ -2131,7 +2131,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/holiday-awakening/03-wechat-long-scroll.png",
+          src: "../assets/holiday-awakening/03-wechat-long-scroll.webp",
           alt: "假日唤醒计划公众号长图连续阅读展示",
           label: "WeChat long scroll",
           title: "公众号长图阅读场景",
@@ -2139,7 +2139,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/holiday-awakening/04-mobile-campaign-system.png",
+          src: "../assets/holiday-awakening/04-mobile-campaign-system.webp",
           alt: "假日唤醒计划手机多屏传播组合",
           label: "Mobile campaign",
           title: "手机多屏传播组合",
@@ -2147,7 +2147,7 @@ const projectData = {
           layout: "feature",
         },
         {
-          src: "../assets/holiday-awakening/05-digital-campaign-overview.png",
+          src: "../assets/holiday-awakening/05-digital-campaign-overview.webp",
           alt: "假日唤醒计划线上传播全案总览",
           label: "Digital overview",
           title: "线上传播全案总览",
@@ -2159,7 +2159,7 @@ const projectData = {
           note: "把线上形成的标题、色彩与插画资产放大到商业空间和活动现场，使传播视觉继续服务到场体验。",
         },
         {
-          src: "../assets/holiday-awakening/06-outdoor-lightbox.png",
+          src: "../assets/holiday-awakening/06-outdoor-lightbox.webp",
           alt: "假日唤醒计划商场户外灯箱效果",
           label: "Outdoor lightbox",
           title: "商业街户外灯箱",
@@ -2167,7 +2167,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/holiday-awakening/07-event-wayfinding.png",
+          src: "../assets/holiday-awakening/07-event-wayfinding.webp",
           alt: "假日唤醒计划活动签到与导视系统",
           label: "Event wayfinding",
           title: "活动签到与导视系统",
@@ -2175,7 +2175,7 @@ const projectData = {
           layout: "wide",
         },
         {
-          src: "../assets/holiday-awakening/08-tabletop-collateral.png",
+          src: "../assets/holiday-awakening/08-tabletop-collateral.webp",
           alt: "假日唤醒计划桌面福利物料组合",
           label: "Campaign collateral",
           title: "桌面福利物料组合",
@@ -2354,24 +2354,24 @@ if (detailTitle) {
 
     if (category === "event" && work === "03") {
       showcaseItems = showcaseItems
-        .filter((item) => item.src !== "../assets/taiji-cup-ip/page-11.png")
+        .filter((item) => item.src !== "../assets/taiji-cup-ip/page-11.webp")
         .map((item) => {
           if (item.heading === "色彩方案与立体呈现") {
             return { heading: "表情包与立体延展", note: "从表情包、玩偶到立体模型，展示IP形象在不同应用媒介中的延展。" };
           }
-          if (item.src === "../assets/taiji-cup-ip/page-12.png") {
+          if (item.src === "../assets/taiji-cup-ip/page-12.webp") {
             return { ...item, alt: "太极杯IP表情包设计", label: "Stickers", title: "表情包设计", copy: "以角色表情和动作建立可用于社交传播的表情包系统。" };
           }
-          if (item.src === "../assets/taiji-cup-ip/page-13.png") {
+          if (item.src === "../assets/taiji-cup-ip/page-13.webp") {
             return { ...item, alt: "太极杯IP吉祥物玩偶延展", label: "Plush extension", title: "吉祥物玩偶延展", copy: "将角色比例、色彩和材质转化为可生产的吉祥物玩偶形态。" };
           }
-          if (item.src === "../assets/taiji-cup-ip/page-14.png") {
+          if (item.src === "../assets/taiji-cup-ip/page-14.webp") {
             return { ...item, title: "吉祥物立体模型", copy: "IP角色从平面设定转化为立体模型，验证造型、材质与空间关系。" };
           }
-          if (item.src === "../assets/taiji-cup-ip/page-15.png") {
+          if (item.src === "../assets/taiji-cup-ip/page-15.webp") {
             return { ...item, title: "立体模型延展", copy: "围绕立体模型继续拓展不同姿态与呈现方式。" };
           }
-          if (item.src === "../assets/taiji-cup-ip/page-09.png") {
+          if (item.src === "../assets/taiji-cup-ip/page-09.webp") {
             return {
               ...item,
               alt: "太极杯IP望闻问切四个动作设计",
@@ -2384,10 +2384,10 @@ if (detailTitle) {
         });
       showcaseItems.push(
         { heading: "文创与传播应用", note: "将IP形象继续延展到手提袋、三伏贴产品和校庆主题海报。" },
-        { src: "../assets/taiji-cup-ip/application-four-seasons-tote.png", alt: "太极杯IP四季小鹿手提袋设计", label: "Cultural product", title: "四季小鹿手提袋", copy: "以春夏秋冬四季场景建立系列化文创手提袋应用。", layout: "portrait" },
-        { src: "../assets/taiji-cup-ip/application-sanfu-patch.png", alt: "太极杯IP三伏贴中医药宣传设计", label: "TCM campaign", title: "三伏贴宣传应用", copy: "将IP形象用于中医药健康产品与宣传场景。", layout: "feature" },
-        { src: "../assets/taiji-cup-ip/poster-traditional-wisdom.png", alt: "成都中医药大学传统智慧与健康主题海报", label: "Poster", title: "国医养生主题海报", copy: "以IP形象连接传统养生文化与校园主题传播。", layout: "portrait" },
-        { src: "../assets/taiji-cup-ip/poster-70th-anniversary.png", alt: "成都中医药大学70周年主题海报", label: "Poster", title: "七秩芳华主题海报", copy: "围绕建校70周年主题进行IP海报延展。", layout: "portrait" },
+        { src: "../assets/taiji-cup-ip/application-four-seasons-tote.webp", alt: "太极杯IP四季小鹿手提袋设计", label: "Cultural product", title: "四季小鹿手提袋", copy: "以春夏秋冬四季场景建立系列化文创手提袋应用。", layout: "portrait" },
+        { src: "../assets/taiji-cup-ip/application-sanfu-patch.webp", alt: "太极杯IP三伏贴中医药宣传设计", label: "TCM campaign", title: "三伏贴宣传应用", copy: "将IP形象用于中医药健康产品与宣传场景。", layout: "feature" },
+        { src: "../assets/taiji-cup-ip/poster-traditional-wisdom.webp", alt: "成都中医药大学传统智慧与健康主题海报", label: "Poster", title: "国医养生主题海报", copy: "以IP形象连接传统养生文化与校园主题传播。", layout: "portrait" },
+        { src: "../assets/taiji-cup-ip/poster-70th-anniversary.webp", alt: "成都中医药大学70周年主题海报", label: "Poster", title: "七秩芳华主题海报", copy: "围绕建校70周年主题进行IP海报延展。", layout: "portrait" },
       );
     }
 
