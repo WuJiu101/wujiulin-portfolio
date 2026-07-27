@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>吴玖林｜视觉设计师简历</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    :root {
+      --paper: #f3f0e9;
+      --ink: #11110f;
+      --muted: #706e68;
+      --line: #cbc6bc;
+      --accent: #e95b4f;
+    }
+    html, body { margin: 0; background: #d9d6cf; }
+    body {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC",
+        "Microsoft YaHei", Arial, sans-serif;
+      color: var(--ink);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      background-color: var(--paper);
+      background-image: radial-gradient(rgba(17,17,15,.11) .45px, transparent .55px);
+      background-size: 4.2px 4.2px;
+      page-break-after: always;
+    }
+    .page:last-child { page-break-after: auto; }
+    .sheet {
+      position: absolute;
+      inset: 0;
+      padding: 15mm 15mm 12mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .topline {
+      display: grid;
+      grid-template-columns: 16mm 1fr auto;
+      gap: 5mm;
+      align-items: center;
+      padding-bottom: 5mm;
+      border-bottom: .35mm solid var(--ink);
+    }
+    .mark {
+      width: 16mm; height: 16mm;
+      display: grid; place-items: center;
+      overflow: hidden;
+      background: transparent url("../assets/personal-logo/logo-black-transparent.png") center / contain no-repeat;
+      color: transparent;
+      font-size: 0;
+    }
+    .eyebrow, .page-no, .micro, .company-en {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+      font-weight: 700;
+    }
+    .eyebrow { font-size: 7.5pt; }
+    .page-no { font-size: 7pt; color: var(--muted); }
+    .hero {
+      display: grid;
+      grid-template-columns: 55mm 1fr;
+      gap: 10mm;
+      padding: 10mm 0 8mm;
+      border-bottom: .25mm solid var(--line);
+    }
+    .name {
+      margin: 0;
+      font-size: 42pt;
+      line-height: .94;
+      letter-spacing: -3px;
+      font-weight: 800;
+    }
+    .roman {
+      margin-top: 3.2mm;
+      color: var(--accent);
+      font: 800 8pt/1 Arial, sans-serif;
+      letter-spacing: 3px;
+    }
+    .role {
+      margin: .6mm 0 3.6mm;
+      font-size: 18pt;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+    .direction {
+      max-width: 92mm;
+      font-size: 9.5pt;
+      line-height: 1.7;
+      color: #44423e;
+    }
+    .contact-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4mm;
+      padding: 4.5mm 0 4mm;
+      border-bottom: .25mm solid var(--line);
+    }
+    .contact-item .label {
+      color: var(--accent);
+      font: 800 6.7pt/1 Arial, sans-serif;
+      letter-spacing: 1.4px;
+      margin-bottom: 1.6mm;
+    }
+    .contact-item .value {
+      font-size: 8.4pt;
+      white-space: nowrap;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 47mm 1fr;
+      gap: 10mm;
+      flex: 1;
+      padding-top: 7mm;
+    }
+    .sidebar {
+      border-right: .25mm solid var(--line);
+      padding-right: 7mm;
+    }
+    .section { margin-bottom: 7mm; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 2.6mm;
+      margin: 0 0 3.4mm;
+      font-size: 10pt;
+      font-weight: 800;
+    }
+    .section-title::before {
+      content: "";
+      width: 2.2mm; height: 2.2mm;
+      border-radius: 50%;
+      background: var(--accent);
+      flex: 0 0 auto;
+    }
+    .section-title .en {
+      margin-left: auto;
+      color: var(--muted);
+      font: 700 5.9pt/1 Arial, sans-serif;
+      letter-spacing: 1.1px;
+    }
+    .profile {
+      margin: 0;
+      font-size: 8.2pt;
+      line-height: 1.72;
+      color: #34332f;
+      text-align: justify;
+    }
+    .strengths {
+      list-style: none;
+      padding: 0; margin: 0;
+    }
+    .strengths li {
+      position: relative;
+      margin: 0 0 3.2mm;
+      padding-left: 5.6mm;
+      font-size: 7.7pt;
+      line-height: 1.62;
+      color: #393833;
+    }
+    .strengths .n {
+      position: absolute; left: 0; top: .2mm;
+      color: var(--accent);
+      font: 800 7pt/1.4 Arial, sans-serif;
+    }
+    .skill { margin-bottom: 3.1mm; }
+    .skill b {
+      display: block;
+      font-size: 7.6pt;
+      margin-bottom: 1mm;
+    }
+    .skill span {
+      display: block;
+      color: var(--muted);
+      font-size: 7pt;
+      line-height: 1.5;
+    }
+    .work-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 4mm;
+    }
+    .work-head h2 {
+      margin: 0;
+      font-size: 17pt;
+      letter-spacing: -.5px;
+    }
+    .work-head .en {
+      color: var(--muted);
+      font: 700 6.5pt/1 Arial, sans-serif;
+      letter-spacing: 1.5px;
+    }
+    .job {
+      position: relative;
+      padding-left: 7mm;
+      margin-bottom: 6.3mm;
+    }
+    .job::before {
+      content: "";
+      position: absolute;
+      left: 1.2mm; top: 1mm; bottom: -6.3mm;
+      width: .25mm; background: var(--line);
+    }
+    .job:last-child::before { bottom: 0; }
+    .job::after {
+      content: "";
+      position: absolute; left: 0; top: 1.1mm;
+      width: 2.7mm; height: 2.7mm;
+      border: .55mm solid var(--accent);
+      border-radius: 50%;
+      background: var(--paper);
+    }
+    .job-title {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 5mm;
+      align-items: baseline;
+      margin-bottom: 1.2mm;
+    }
+    .job-title h3 {
+      margin: 0;
+      font-size: 10.3pt;
+      line-height: 1.35;
+    }
+    .date {
+      color: var(--accent);
+      font: 800 7pt/1 Arial, sans-serif;
+      white-space: nowrap;
+    }
+    .position {
+      margin: 0 0 2.5mm;
+      color: var(--muted);
+      font-size: 7.3pt;
+      font-weight: 600;
+    }
+    .bullets {
+      margin: 0;
+      padding-left: 4mm;
+    }
+    .bullets li {
+      margin: 0 0 1.7mm;
+      font-size: 7.55pt;
+      line-height: 1.52;
+      color: #33322f;
+      text-align: justify;
+    }
+    .highlight {
+      padding: 3.4mm 4mm;
+      margin-top: 3mm;
+      background: rgba(17,17,15,.055);
+      border-left: 1.1mm solid var(--accent);
+      font-size: 7.4pt;
+      line-height: 1.55;
+      color: #34332f;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 3.5mm;
+      border-top: .25mm solid var(--line);
+      color: var(--muted);
+      font-size: 6.5pt;
+    }
+    .footer b { color: var(--ink); }
+
+    /* Page 2 */
+    .page-two .sheet { padding-bottom: 11mm; }
+    .page-two .heading {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      padding: 8mm 0 5mm;
+      border-bottom: .25mm solid var(--line);
+    }
+    .page-two .heading h1 {
+      margin: 0;
+      font-size: 25pt;
+      line-height: 1;
+      letter-spacing: -1.2px;
+    }
+    .page-two .heading .sub {
+      color: var(--muted);
+      font: 700 6.5pt/1 Arial, sans-serif;
+      letter-spacing: 1.6px;
+    }
+    .experience-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 11mm;
+      padding-top: 7mm;
+    }
+    .capability-band {
+      margin-top: 1mm;
+      padding-top: 5mm;
+      border-top: .35mm solid var(--ink);
+    }
+    .capability-band .band-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3.5mm;
+    }
+    .capability-band .band-head h2 {
+      margin: 0;
+      font-size: 14pt;
+    }
+    .capability-band .band-head span {
+      color: var(--muted);
+      font: 700 6.2pt/1 Arial, sans-serif;
+      letter-spacing: 1.4px;
+    }
+    .capability-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 3mm;
+    }
+    .capability-card {
+      min-height: 34mm;
+      padding: 3.2mm;
+      border: .25mm solid var(--line);
+      background: rgba(243,240,233,.68);
+    }
+    .capability-card .num {
+      display: block;
+      margin-bottom: 3.5mm;
+      color: var(--accent);
+      font: 800 7pt/1 Arial, sans-serif;
+    }
+    .capability-card h3 {
+      margin: 0 0 2mm;
+      font-size: 8.4pt;
+    }
+    .capability-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 6.8pt;
+      line-height: 1.52;
+    }
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 4mm;
+      padding: 3.4mm 0;
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .process div {
+      padding: 0 3mm;
+      border-right: .25mm solid rgba(243,240,233,.3);
+    }
+    .process div:last-child { border-right: 0; }
+    .process b {
+      display: block;
+      margin-bottom: 1.3mm;
+      color: var(--accent);
+      font: 800 6.4pt/1 Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+    .process span {
+      font-size: 7.2pt;
+      font-weight: 600;
+    }
+    .compact-job {
+      break-inside: avoid;
+      border-top: .35mm solid var(--ink);
+      padding-top: 3.2mm;
+      margin-bottom: 6mm;
+    }
+    .compact-job .date { display: block; margin-bottom: 1.8mm; }
+    .compact-job h3 {
+      margin: 0 0 1mm;
+      font-size: 9.6pt;
+      line-height: 1.35;
+    }
+    .compact-job .position { margin-bottom: 2.2mm; }
+    .compact-job .bullets li {
+      font-size: 7.3pt;
+      line-height: 1.52;
+      margin-bottom: 1.5mm;
+    }
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 11mm;
+      padding-top: 4mm;
+      margin-top: auto;
+      border-top: .35mm solid var(--ink);
+    }
+    .education-card h3 {
+      margin: 0 0 1.2mm;
+      font-size: 10.5pt;
+    }
+    .education-card .meta {
+      color: var(--accent);
+      font: 800 7pt/1 Arial, sans-serif;
+      margin-bottom: 2.4mm;
+    }
+    .education-card p {
+      margin: 0;
+      font-size: 7.3pt;
+      line-height: 1.55;
+      color: #3d3c37;
+    }
+    .tools {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5mm;
+    }
+    .tool {
+      padding: 3mm 2.6mm;
+      border: .25mm solid var(--line);
+    }
+    .tool b {
+      display: block;
+      font: 800 10pt/1 Arial, sans-serif;
+      margin-bottom: 1.4mm;
+    }
+    .tool span {
+      color: var(--muted);
+      font-size: 6.6pt;
+    }
+
+    /* One-page resume edition */
+    .page-two { display: none; }
+    .hero { padding: 7mm 0 5.5mm; }
+    .name { font-size: 38pt; }
+    .contact-strip { padding: 3.6mm 0 3.2mm; }
+    .layout {
+      grid-template-columns: 45mm 1fr;
+      gap: 8mm;
+      padding-top: 5mm;
+    }
+    .sidebar { padding-right: 5.5mm; }
+    .section { margin-bottom: 4.5mm; }
+    .section-title { margin-bottom: 2.5mm; font-size: 9pt; }
+    .profile { font-size: 7.65pt; line-height: 1.56; }
+    .strengths li {
+      margin-bottom: 2.3mm;
+      font-size: 7.2pt;
+      line-height: 1.48;
+    }
+    .skill { margin-bottom: 2.15mm; }
+    .skill b { font-size: 7.35pt; margin-bottom: .6mm; }
+    .skill span { font-size: 6.85pt; line-height: 1.4; }
+    .ai-box {
+      margin-top: 2.5mm;
+      padding: 3mm;
+      color: var(--paper);
+      background: var(--ink);
+    }
+    .ai-box b {
+      display: block;
+      margin-bottom: 1.8mm;
+      color: var(--accent);
+      font: 800 7pt/1 Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+    .ai-box p {
+      margin: 0;
+      font-size: 6.9pt;
+      line-height: 1.48;
+    }
+    .work-head { margin-bottom: 2.7mm; }
+    .work-head h2 { font-size: 17pt; }
+    .work-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 7mm;
+    }
+    .work-column { display: contents; }
+    .work-column:first-child .job:nth-child(1) { grid-column: 1; grid-row: 1; }
+    .work-column:first-child .job:nth-child(2) { grid-column: 1; grid-row: 2; }
+    .work-column:first-child .job:nth-child(3) { grid-column: 1; grid-row: 3; }
+    .work-column:last-child .job:nth-child(1) { grid-column: 2; grid-row: 1; }
+    .work-column:last-child .job:nth-child(2) { grid-column: 2; grid-row: 2; }
+    .work-column:last-child .job:nth-child(3) { grid-column: 2; grid-row: 3; }
+    .work-list .job {
+      display: flex;
+      flex-direction: column;
+    }
+    .work-list .job-summary {
+      margin-bottom: 1.7mm;
+    }
+    .work-list .job-focus {
+      margin-top: auto;
+    }
+    .job {
+      padding-left: 5.5mm;
+      margin-bottom: 4.1mm;
+    }
+    .job::before { left: 1mm; bottom: -4.1mm; }
+    .job::after {
+      width: 2.3mm; height: 2.3mm;
+      top: .7mm;
+    }
+    .job-title {
+      display: block;
+      margin-bottom: .7mm;
+    }
+    .job-title h3 {
+      font-size: 9.7pt;
+      line-height: 1.35;
+      margin-bottom: 1mm;
+    }
+    .date {
+      display: block;
+      font-size: 7.25pt;
+      margin-bottom: 1.1mm;
+    }
+    .position {
+      font-size: 7.55pt;
+      margin-bottom: 1.4mm;
+    }
+    .job-summary {
+      margin: 0;
+      color: #373631;
+      font-size: 8.05pt;
+      line-height: 1.46;
+      text-align: justify;
+    }
+    .job-focus {
+      margin: 1.7mm 0 0;
+      padding: 1.7mm 2.1mm;
+      color: #55524c;
+      background: rgba(17,17,15,.055);
+      border-left: .8mm solid var(--accent);
+      font-size: 7.25pt;
+      line-height: 1.4;
+    }
+    .job-focus b {
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .education-mini {
+      padding-top: 2.5mm;
+      border-top: .25mm solid var(--line);
+    }
+    .education-mini b {
+      display: block;
+      font-size: 7.2pt;
+      margin-bottom: .7mm;
+    }
+    .education-mini .meta {
+      color: var(--accent);
+      font: 800 6.2pt/1.4 Arial, sans-serif;
+    }
+    .education-mini p {
+      margin: 1mm 0 0;
+      color: var(--muted);
+      font-size: 6.35pt;
+      line-height: 1.42;
+    }
+    .education-wide {
+      margin: 3.5mm 0 0 5.5mm;
+      padding-top: 3mm;
+      border-top: .35mm solid var(--ink);
+    }
+    .education-wide .work-head {
+      margin-bottom: 2.4mm;
+    }
+    .education-wide .work-head h2 {
+      font-size: 13pt;
+    }
+    .education-wide .job {
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .education-wide .job::before {
+      bottom: 0;
+    }
+    .footer { padding-top: 2.6mm; }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <div class="sheet">
+      <header class="topline">
+        <div class="mark">WJL</div>
+        <div class="eyebrow">Curriculum Vitae / Visual Designer</div>
+        <div class="page-no">01 / 01 · 2026</div>
+      </header>
+
+      <div class="hero">
+        <div>
+          <h1 class="name">吴玖林</h1>
+          <div class="roman">WU JIU LIN</div>
+        </div>
+        <div>
+          <div class="role">视觉设计师</div>
+          <div class="direction">
+            品牌视觉设计 / 活动视觉与空间氛围 / 文创与 IP 设计
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-strip">
+        <div class="contact-item"><div class="label">PHONE</div><div class="value">182 8272 5022</div></div>
+        <div class="contact-item"><div class="label">EMAIL</div><div class="value">1169155828@qq.com</div></div>
+        <div class="contact-item"><div class="label">WECHAT</div><div class="value">wu1169155828</div></div>
+      </div>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <section class="section">
+            <h2 class="section-title">职业概述 <span class="en">PROFILE</span></h2>
+            <p class="profile">
+              视觉设计师，拥有品牌、活动、空间与文创项目的复合经验。擅长把抽象的品牌定位和传播目标转化为清晰的视觉系统，并推进至线上内容、线下空间及实体物料的统一落地。
+            </p>
+          </section>
+
+          <section class="section">
+            <h2 class="section-title">个人优势 <span class="en">STRENGTH</span></h2>
+            <ol class="strengths">
+              <li><span class="n">01</span>具备大型赛事、产业活动与城市文化项目经验，能够理解复杂场景中的信息层级、动线和品牌接触点。</li>
+              <li><span class="n">02</span>不局限于单张画面，能从核心概念出发建立可延展的视觉规则，保证空间、平面与数字媒介表达一致。</li>
+              <li><span class="n">03</span>兼顾创意表现与制作落地，熟悉从提案、修改、延展到交付的完整协作流程。</li>
+            </ol>
+          </section>
+
+          <section class="section">
+            <h2 class="section-title">能力架构 <span class="en">CAPABILITY</span></h2>
+            <div class="skill"><b>品牌系统</b><span>定位转译 / Logo 与 VI / 辅助图形 / 应用规范</span></div>
+            <div class="skill"><b>活动与空间</b><span>主视觉 / 场馆包装 / 导视 / 氛围与会议物料</span></div>
+            <div class="skill"><b>内容与文创</b><span>画册 / 海报 / 包装 / IP 角色 / 城市衍生品</span></div>
+            <div class="skill"><b>设计工具</b><span>Illustrator / Photoshop / After Effects / Premiere Pro / 剪映</span></div>
+            <div class="skill"><b>设计类 AI 工具</b><span>图像生成 / 创意发散 / 风格探索 / 场景预演 / 素材辅助</span></div>
+            <div class="ai-box">
+              <b>AI-ASSISTED DESIGN</b>
+              <p>能运用生成式 AI 辅助前期创意发散、风格探索、场景预演与视觉素材构建，并结合 Photoshop、Illustrator 完成筛选、修正和规范化输出，提高提案速度与多方案探索效率。</p>
+            </div>
+          </section>
+
+        </aside>
+
+        <section>
+          <div class="work-head">
+            <h2>工作经历</h2>
+            <div class="en">FULL EXPERIENCE</div>
+          </div>
+
+          <div class="work-list">
+            <div class="work-column">
+              <article class="job">
+                <div class="job-title"><h3>成都又好又美文化有限公司</h3><div class="date">2025.03—至今</div></div>
+                <p class="position">平面 / 视觉设计师</p>
+                <p class="job-summary">负责品牌、活动及城市文化项目的视觉设计与落地。参与四川医药健康产业专题对接活动、2025 成都世运会相关场馆与赛区视觉、远望集团品牌系统及龙泉驿城市文创；完成成都中医药大学 70 周年“太极杯”IP 设计并获“优秀创意奖”。</p>
+                <p class="job-focus"><b>经验重点：</b>大型活动与赛事 / 空间视觉 / 品牌系统 / 城市文创与 IP</p>
+              </article>
+
+              <article class="job">
+                <div class="job-title"><h3>诚道吉科技有限公司</h3><div class="date">2024.08—2024.10</div></div>
+                <p class="position">平面设计师（文化部）</p>
+                <p class="job-summary">负责企业品牌传播物料与内容视觉，覆盖画册、宣传册和公众号长图；参与校园文化墙及新产品包装，从内容梳理、方案构思推进至视觉执行与资源归档。</p>
+                <p class="job-focus"><b>经验重点：</b>企业传播 / 画册与长图 / 包装 / 文化空间</p>
+              </article>
+
+              <article class="job">
+                <div class="job-title"><h3>成都好礼汇商贸有限公司</h3><div class="date">2024.05—2024.07</div></div>
+                <p class="position">平面设计师</p>
+                <p class="job-summary">围绕节日营销、电商促销和品牌传播完成海报、长图、产品画册与名片；参与 Logo、VI 应用及 H5 页面视觉，根据销售场景优化信息层级并完成多尺寸适配。</p>
+                <p class="job-focus"><b>经验重点：</b>营销视觉 / 电商内容 / VI 应用 / H5 页面</p>
+              </article>
+            </div>
+
+            <div class="work-column">
+              <article class="job">
+                <div class="job-title"><h3>重庆天籁艺术文化培训学校有限公司</h3><div class="date">2023.06—2023.12</div></div>
+                <p class="position">企划设计</p>
+                <p class="job-summary">负责招生传播与校园环境视觉，完成海报、折页、门头、名片及文化墙等设计；针对不同活动快速建立系列物料，兼顾品牌统一、阅读效率与制作落地。</p>
+                <p class="job-focus"><b>经验重点：</b>招生传播 / 校园环境 / 系列物料 / 制作落地</p>
+              </article>
+
+              <article class="job">
+                <div class="job-title"><h3>四川上首品牌策划有限公司</h3><div class="date">2023.03—2023.05</div></div>
+                <p class="position">平面设计师</p>
+                <p class="job-summary">参与品牌 VI 系统和应用延展，根据策划方向完成 Logo、海报、名片与门头物料，并协助建立更规范、便于后续使用的基础品牌资产。</p>
+                <p class="job-focus"><b>经验重点：</b>品牌基础建设 / VI 延展 / 品牌资产规范</p>
+              </article>
+
+              <article class="job">
+                <div class="job-title"><h3>杭州代创广告有限公司</h3><div class="date">2022.07—2022.12</div></div>
+                <p class="position">平面设计实习生</p>
+                <p class="job-summary">参与插画、漫画、Logo、海报、名片和画册等多类型商业任务，在需求理解、方案调整、文件整理与交付中建立基础执行能力。</p>
+                <p class="job-focus"><b>经验重点：</b>多类型商业执行 / 插画与平面 / 文件交付</p>
+              </article>
+            </div>
+          </div>
+
+          <section class="education-wide">
+            <div class="work-head">
+              <h2>教育经历</h2>
+              <div class="en">EDUCATION</div>
+            </div>
+            <article class="job">
+              <div class="job-title"><h3>四川传媒学院</h3><div class="date">2019—2023</div></div>
+              <p class="position">动画 · 本科</p>
+              <p class="job-summary">本科阶段系统学习美术基础、造型与色彩、视觉构成及数字设计软件，建立审美判断、图形表达与视觉叙事基础；在校期间主动拓展品牌与平面设计能力，大三开始承接线上设计及漫画项目，并于 2022 年进入杭州代创广告参与商业设计实践。</p>
+            </article>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span><b>WU JIU LIN</b> · VISUAL DESIGNER</span>
+        <span>Resume focused / No portfolio images</span>
+      </footer>
+    </div>
+  </section>
+
+  <section class="page page-two">
+    <div class="sheet">
+      <header class="topline">
+        <div class="mark">WJL</div>
+        <div class="eyebrow">Experience / Education / Capabilities</div>
+        <div class="page-no">02 / 02 · 2026</div>
+      </header>
+
+      <div class="heading">
+        <h1>经历与能力</h1>
+        <div class="sub">CAREER HISTORY</div>
+      </div>
+
+      <main class="experience-grid">
+        <div>
+          <article class="compact-job">
+            <span class="date">2023.06—2023.12</span>
+            <h3>重庆天籁艺术文化培训学校有限公司</h3>
+            <p class="position">企划设计</p>
+            <ul class="bullets">
+              <li>负责学校日常品牌宣传与校园环境视觉，完成招生海报、宣传折页、门头、名片及文化墙等设计。</li>
+              <li>根据招生与活动场景快速完成物料延展，保持品牌形象统一并配合制作落地。</li>
+            </ul>
+          </article>
+
+          <article class="compact-job">
+            <span class="date">2023.03—2023.05</span>
+            <h3>四川上首品牌策划有限公司</h3>
+            <p class="position">平面设计师</p>
+            <ul class="bullets">
+              <li>参与品牌 VI 视觉系统及应用延展，完成 Logo、海报、名片和门头物料。</li>
+              <li>配合品牌策划需求梳理视觉方向，推进基础品牌资产的规范化输出。</li>
+            </ul>
+          </article>
+        </div>
+
+        <div>
+          <article class="compact-job">
+            <span class="date">2022.07—2022.12</span>
+            <h3>杭州代创广告有限公司</h3>
+            <p class="position">平面设计实习生</p>
+            <ul class="bullets">
+              <li>根据客户需求完成插画、漫画、Logo、海报、名片及画册等设计任务。</li>
+              <li>配合团队进行方案调整、文件整理与交付，积累多类型商业项目执行经验。</li>
+            </ul>
+          </article>
+
+          <article class="compact-job">
+            <span class="date">2019—2023</span>
+            <h3>四川传媒学院</h3>
+            <p class="position">动画 · 本科</p>
+            <ul class="bullets">
+              <li>毕业设计 / 论文：《多格漫画〈夜不收〉中的角色设计》。</li>
+              <li>以明朝土木堡之变为历史背景，完成多格漫画的角色设定与叙事视觉设计。</li>
+            </ul>
+          </article>
+        </div>
+      </main>
+
+      <section class="capability-band">
+        <div class="band-head">
+          <h2>能力结构</h2>
+          <span>DESIGN CAPABILITIES</span>
+        </div>
+        <div class="capability-cards">
+          <article class="capability-card">
+            <span class="num">01</span>
+            <h3>品牌系统</h3>
+            <p>Logo、VI 系统、辅助图形与品牌应用规范，保持不同媒介中的视觉一致性。</p>
+          </article>
+          <article class="capability-card">
+            <span class="num">02</span>
+            <h3>活动与空间</h3>
+            <p>主视觉、舞台与场馆包装、导视、氛围装置及会议物料的协同设计。</p>
+          </article>
+          <article class="capability-card">
+            <span class="num">03</span>
+            <h3>平面与内容</h3>
+            <p>画册、海报、公众号长图、电商视觉与包装，兼顾信息层级和传播目标。</p>
+          </article>
+          <article class="capability-card">
+            <span class="num">04</span>
+            <h3>文创与 IP</h3>
+            <p>IP 形象、角色延展、礼盒、文具及城市文化衍生品的系列化设计。</p>
+          </article>
+        </div>
+        <div class="process">
+          <div><b>01 / DEFINE</b><span>梳理定位与目标</span></div>
+          <div><b>02 / SYSTEM</b><span>建立视觉语言</span></div>
+          <div><b>03 / EXTEND</b><span>完成多场景延展</span></div>
+          <div><b>04 / DELIVER</b><span>配合制作与落地</span></div>
+        </div>
+      </section>
+
+      <section class="bottom-grid">
+        <div class="education-card">
+          <h2 class="section-title">专业能力 <span class="en">CAPABILITY</span></h2>
+          <h3>从视觉概念到多场景落地</h3>
+          <div class="meta">BRAND · EVENT · SPACE · IP</div>
+          <p>
+            能够围绕品牌定位与传播目标建立视觉语言，并在品牌系统、活动现场、空间导视、会议物料、画册包装、文创产品与数字内容中保持一致的表达。
+          </p>
+        </div>
+
+        <div>
+          <h2 class="section-title">软件能力 <span class="en">TOOLS</span></h2>
+          <div class="tools">
+            <div class="tool"><b>AI</b><span>熟练</span></div>
+            <div class="tool"><b>PS</b><span>熟练</span></div>
+            <div class="tool"><b>AE</b><span>基础</span></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span><b>182 8272 5022</b> · 1169155828@qq.com</span>
+        <span>成都 · 微信 wu1169155828</span>
+      </footer>
+    </div>
+  </section>
+</body>
+</html>
