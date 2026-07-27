@@ -140,26 +140,26 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}
 .project-row-alt{grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr)}
 .project-row-alt .project-cover{order:2}
 .project-row-alt .project-info{order:1}
-.project-row.is-visible{animation:pr-pop .85s cubic-bezier(.16,1,.3,1) forwards}
+.project-row.is-visible{animation:pr-pop .75s ease-out forwards}
 @keyframes pr-pop{0%{opacity:0;transform:translateY(40px);filter:blur(4px)}100%{opacity:1;transform:translateY(0);filter:blur(0)}}
-.project-cover{position:relative;display:block;overflow:hidden;aspect-ratio:4/3;background:#ddd8cf;cursor:pointer;opacity:0;transform:translateY(48px) scale(.94);clip-path:inset(12% 0 0 0)}
-.project-row.is-visible .project-cover{animation:cv-pop .65s cubic-bezier(.16,1,.3,1) .05s forwards}
-@keyframes cv-pop{0%{opacity:0;transform:translateY(48px) scale(.94);clip-path:inset(12% 0 0 0)}100%{opacity:1;transform:translateY(0) scale(1);clip-path:inset(0)}}
-.project-cover img{width:100%;height:100%;object-fit:cover;filter:brightness(.58) saturate(.72);transition:filter .55s cubic-bezier(.22,.61,.36,1),transform .55s cubic-bezier(.22,.61,.36,1)}
-.project-row.is-visible .project-cover img{animation:cover-brighten 1.2s ease-out .14s forwards}
+.project-cover{position:relative;display:block;overflow:hidden;aspect-ratio:4/3;background:#ddd8cf;cursor:pointer;opacity:0;transform:translateY(30px)}
+.project-row.is-visible .project-cover{animation:cv-pop .6s ease-out .08s forwards}
+@keyframes cv-pop{0%{opacity:0;transform:translateY(30px)}100%{opacity:1;transform:translateY(0)}}
+.project-cover img{width:100%;height:100%;object-fit:cover;filter:brightness(.58) saturate(.72);transition:filter .5s ease-out,transform .5s ease-out}
+.project-row.is-visible .project-cover img{animation:cover-brighten 1s ease-out .18s forwards}
 @keyframes cover-brighten{from{filter:brightness(.58) saturate(.72)}to{filter:brightness(.92) saturate(.94)}}
 .project-cover-logo img{transform:scale(1.35);object-position:center}
 .project-cover-lake img{object-position:center top}
-.cover-overlay{position:absolute;inset:0;background:rgba(10,10,10,.16);transition:opacity .55s cubic-bezier(.22,.61,.36,1)}
-.project-row.is-visible .cover-overlay{animation:overlay-clear 1.2s ease-out .14s forwards}
+.cover-overlay{position:absolute;inset:0;background:rgba(10,10,10,.16);transition:opacity .5s ease-out}
+.project-row.is-visible .cover-overlay{animation:overlay-clear 1s ease-out .18s forwards}
 @keyframes overlay-clear{from{opacity:1}to{opacity:.08}}
 .project-cover:hover img{animation:none;filter:brightness(1) saturate(1);transform:scale(1.04)}
 .project-cover-logo:hover img{transform:scale(1.4)}
 .project-cover-lake:hover img{transform:scale(1.025)}
 .project-cover:hover .cover-overlay{animation:none;opacity:0}
-.project-info{display:flex;flex-direction:column;gap:6px;opacity:0;transform:translateY(32px)}
-.project-row.is-visible .project-info{animation:pi-in .55s cubic-bezier(.16,1,.3,1) .14s forwards}
-@keyframes pi-in{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+.project-info{display:flex;flex-direction:column;gap:6px;opacity:0;transform:translateY(20px)}
+.project-row.is-visible .project-info{animation:pi-in .5s ease-out .15s forwards}
+@keyframes pi-in{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .project-num{font-family:var(--font-mono);font-size:clamp(.62rem,.78vw,.7rem);font-weight:500;letter-spacing:.06em;color:var(--accent)}
 .project-tag{display:inline-flex;align-items:center;gap:4px;font-family:var(--font-mono);font-size:.58rem;font-weight:600;letter-spacing:.08em;color:var(--muted);margin-bottom:2px}
 .project-tag::before{content:'';display:block;width:8px;height:8px;border-radius:2px;background:var(--accent);opacity:.7}
